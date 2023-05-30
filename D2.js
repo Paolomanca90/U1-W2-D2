@@ -37,10 +37,10 @@ if(number1 % 5 === 0){
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-let num1 = 8
-let num2 = 11
+let num1 = 10
+let num2 = 18
 
-if(num1 === 8 || num2 === 8 || num1-num2 === 8 || num1-num2 === 8){
+if(num1 === 8 || num2 === 8 || num1 + num2 === 8 || num1 - num2 === 8 || num2 - num1 === 8){
   console.log('uno dei numeri è uguale a 8 oppure la loro addizione/sottrazione è uguale a 8')
 }
 
