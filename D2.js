@@ -186,7 +186,7 @@ console.log(me)
 
 const array = []
 
-for(i=1; i<=10; i++){
+for(let i=1; i<=10; i++){
    array.push(i)
 }
 
